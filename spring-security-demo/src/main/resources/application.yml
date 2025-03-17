@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://103.237.144.163:5432/springmvc?useUnicode=true&character=UTF-8
+    username: quangcv
+    password: 123abc@A
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
